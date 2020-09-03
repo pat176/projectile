@@ -1,0 +1,36 @@
+body > div {
+  width: 50%;
+  float: left;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 10px;
+}
+form {
+  text-align: center;
+  width: 100%;
+}
+.Range,
+.Angle,
+button {
+  margin: 15px auto;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+.motion {
+  margin-top: 10px;
+  width: 500px;
+  height: 500px;
+  float: right;
+  background: white;
+  padding: 0;
+}
+.motion div {
+  width: 0%;
+  height: 0%;
+  background: url("./motion.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  transition: all 1s ease-in;
+}
